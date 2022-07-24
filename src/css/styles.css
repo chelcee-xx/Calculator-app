@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #c69cf4;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Edu TAS Beginner', cursive;
+    background-color: #fff;
+    font-size: 32px;
+    margin: 0;
+    color: #a45df0;
+    width: 305px;
+    display: inline-block;
+}
+
+.frame{
+    border: 1px solid black;
+    border-radius: 6px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    margin: 150px 200px;
+    border: 10px solid #414141;
+    width:350px;
+}
+
+input[type=button]{
+    color: #fff;
+    background-color: #414141;
+    width: 77px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input[type=button].operator{
+    color: #c69cf4;
+}
+
+
+input[type=text]{
+    width: 305px;
+    height: 100px;
+    padding: 10px;
+    text-align: right;
+    border: 0;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
